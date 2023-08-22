@@ -50,7 +50,7 @@ class AlienInvasion:
         alien_width = alien.rect.width
         alien.x = alien_width + 2 * alien_width * alien_number
         alien.rect.x = alien.x
-        qself.aliens.add(alien)
+        self.aliens.add(alien)
 
     def _check_events(self):
         # Watch for keyboard and mouse events.
